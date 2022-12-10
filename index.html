@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Mohammad Ajaz Shaikh | Portfolio</title>
 </head>
-
 <body>
   <!-- Header -->
   <section id="header">
@@ -28,6 +26,7 @@
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <li><a href="#get-in-touch" data-after="get-in-touch">Get In Touch</a></li>
           </ul>
         </div>
       </div>
@@ -59,6 +58,28 @@
           technologies as per below Technologies.</p>
       </div>
       <div class="service-bottom">
+
+        <!-- Adding java and other technology started -->
+        <div class="service-item">
+          <div class="icon"><img src="img/java.png" /></div>
+          <h2>Java</h2>
+          <p>Java is a popular programming language. Java is used to develop mobile apps, web apps, desktop apps, games and much more.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="img/Hibernate.png" /></div>
+          <h2>Hibernate</h2>
+          <p>Hibernate is a Java framework that simplifies the development of Java application to interact with the database.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon"><img src="img/spring.png" /></div>
+          <h2>Spring</h2>
+          <p>The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications.</p>
+        </div>
+
+        <!-- End Adding -->
+
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/color/2x/html-5--v1.png" /></div>
           <h2>HTML5</h2>
@@ -83,33 +104,38 @@
           <p>CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the newest version of
             Bootstrap. </p>
         </div>
-        <div class="service-item">
+
+        <!-- <div class="service-item">
           <div class="icon"><img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" /></div>
           <h2>JQUERY</h2>
           <p>jQuery is an open-sourced JavaScript library that simplifies creation and navigation of web applications.
           </p>
-        </div>
+        </div> -->
 
         <div class="service-item">
           <div class="icon"><img
-              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" />
+              src="img/mysql.png" />
           </div>
-          <h2>Mongo DB</h2>
-          <p>NoSQL database management program. NoSQL is used as an alternative to traditional relational databases.</p>
+          <h2>MySQL</h2>
+          <p>MySQL Cluster enables users to meet the database challenges of next generation web, cloud, and communications services</p>
         </div>
-        <div class="service-item">
+
+
+        <!-- <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/officel/2x/react.png" /></div>
           <h2>REACT JS</h2>
           <p>It works best to build user interfaces by combining sections of code (components) into full websites. </p>
-        </div>
+        </div> -->
 
-        <div class="service-item">
+        <!-- <div class="service-item">
           <div class="icon"><img src="https://seeklogo.com/images/N/nodejs-logo-D26404F360-seeklogo.com.png" /></div>
           <h2>NODE JS</h2>
           <p>Node is useful for developing applications that require a persistent connection from the browser to the
             server.</p>
         </div>
-      </div>
+      </div> -->
+
+      
     </div>
   </section>
   <!-- End Service Section -->
@@ -135,7 +161,7 @@
           </div>
         </div>
 
-        <div class="project-item" )">
+        <div class="project-item">
           <div class="project-info">
             <h1>Project 2</h1>
             <h2>Tindog-A website for various dogs.</h2>
@@ -247,9 +273,7 @@
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>A fresher to start journey as a Web Developer</h2>
-        <p>A reliable detailed-oriented individual looking to work as a Developer, where I can utilize my skills in
-          Javascript, HTML, CSS and Nodejs, and also to learn new technologies. Having a good understanding of design
-          principles and agile methodologies.
+        <p>I have good commands over Core Java, J2EE and Database. I look forward for a successful profession with strong commitment towards growth, learning and innovation. I would like to utilize my skills and experience in the best possible way for achieving the company's goal. With quick learning and dedication I would be able to make significant contribution to organization.
         </p>
         <p>I will love to hear from you, Whether it is a job opportunity or just a chat. Feel free to contact me.<menu>
           </menu>
@@ -266,7 +290,9 @@
       <div>
         <h1 class="section-title">Contact <span>info</span></h1>
       </div>
-      <div class="contact-items">
+      <div class="row">
+          <div class="contact-items">
+                    
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
           <div class="contact-info">
@@ -275,6 +301,7 @@
 
           </div>
         </div>
+
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
           <div class="contact-info">
@@ -283,6 +310,7 @@
 
           </div>
         </div>
+
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
           <div class="contact-info">
@@ -290,10 +318,38 @@
             <h2>Mumbai, India</h2>
           </div>
         </div>
+
+          </div>
+        <form class="form" id="get-in-touch" method="post" action="pf">
+          <h1 class="section-title form-heading">Get In <span>Touch</span></h1>
+          <div class="name fields">
+            <label for="name" >Name : </label>
+            <input type="text" placeholder="Enter your name" id="name" class="name-field" required name="name">
+          </div>
+
+          <div class="mobile-no fields">
+            <label for="mobile-no">MobileNo :</label>
+            <input type="text" placeholder="Enter your number" id="mobile-no" class="mobile-no-field" required name="mob">
+          </div>
+
+          <div class="email fields">
+            <label for="email">Email :</label>
+            <input type="Email" id="email" class="email-field" placeholder="Enter email" required name="email">
+          </div>
+
+          <div class="message fields">
+            <label for="message">Message :</label>
+            <textarea class="message-field" id="message" placeholder="Message us" required name="message"></textarea>
+          </div>
+          <div class="fields submit-container">
+            <input type="submit" value="Submit" class="submit">
+            <span class="validate">Request has been Submitted...!!!</span>
+          </div>
+        </form>
       </div>
     </div>
   </section>
-  <!-- End Contact Section -->
+  <!-- End Personal info -->
 
   <!-- Footer -->
   <section id="footer">
@@ -317,7 +373,7 @@
     </div>
   </section>
   <!-- End Footer -->
-  <script src="./app.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
